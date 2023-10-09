@@ -1,0 +1,23 @@
+
+.customNavBar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.customButton{
+    font-size: xx-large;
+}
+
+.linkMenu{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+.linkMenu a {
+    text-decoration: none;
+}

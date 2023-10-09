@@ -1,0 +1,34 @@
+.imagesGallery {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageCard {
+    cursor: pointer;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.imageCard p {
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.305);
+    color: #ffffffb0;
+    width: 80%;
+}
+
+.likeIcon{
+    width: 10rem !important ;
+}
